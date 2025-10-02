@@ -1,0 +1,24 @@
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.btn-custom {
+    
+}
+
+#envato-market {
+    height: 5vh;
+    background-color: rgb(37, 37, 37);
+}
+#envato-logo p {
+    margin: 0;
+}
+#envato-logo p span {
+    font-weight: bold;
+}
+#envato-market div button {
+    background-color: rgb(125, 184, 71);
+    padding: 0.2rem 1.5rem;
+    font-size: 1rem; 
+}
