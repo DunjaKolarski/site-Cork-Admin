@@ -4,7 +4,14 @@ body {
 }
 
 .btn-custom {
-    
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.7rem;
+}
+.container-fluid {
+    padding: 0;
 }
 
 #envato-market {
@@ -21,4 +28,77 @@ body {
     background-color: rgb(125, 184, 71);
     padding: 0.2rem 1.5rem;
     font-size: 1rem; 
+}
+
+#main-page {
+    height: 95vh;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(224, 235, 255));
+}
+#header {
+    height: 10vh;
+    width: 90%;
+}
+#cork-logo p {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#buy-black-button {
+    background-color: black;
+}
+#laravel-version-button {
+    background: linear-gradient(to right, rgb(255, 5, 47), rgb(255, 156, 164));
+}
+#laravel-version-button i {
+    font-size: 1rem;
+}
+#main-section {
+    height: 60vh;
+    width: 90%;
+}
+#main-text-section {
+    width: 40%;
+}
+#main-text-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(19, 19, 19);
+    width: 80%;
+}
+#main-text-section h1 span {
+    color: rgb(185, 110, 255);
+}
+#main-text-section > p {
+    width: 100%;
+    font-size: 1.1rem;
+}
+#main-text-buttons {
+    
+}
+#main-text-buttons button:nth-of-type(1) {
+    background-color: rgb(91, 179, 91);
+}
+#main-text-buttons button:nth-of-type(2) {
+    background-color: rgb(153, 47, 252);
+}
+#main-text-buttons button {
+    color: white;
+    padding: 0.6rem 1.2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 0.7rem;
+}
+#main-attributes {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+#main-attributes i {
+    font-size: 1rem;
+    color: rgb(71, 71, 71);
+}
+#main-image-section {
+    width: 55%;
+}
+#main-image-section img {
+    width: 100%;
 }
