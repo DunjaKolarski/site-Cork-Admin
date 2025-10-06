@@ -102,3 +102,27 @@ body {
 #main-image-section img {
     width: 100%;
 }
+
+#demos-page {
+    height: 180vh;
+}
+#demos-page > div:first-child {
+    height: 20vh;
+}
+#demos-page > div:first-child h2 {
+    background: linear-gradient(to right, black, rgb(174, 88, 253));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#demos-page h5 {
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    font-weight: normal;
+}
+.demos-green-btn {
+    background: linear-gradient(to top right, rgb(35, 70, 65), rgb(34, 212, 198));
+}
+.coming-btn {
+    color: black;
+    background-color: rgb(197, 197, 197);
+}
