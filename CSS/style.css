@@ -126,3 +126,29 @@ body {
     color: black;
     background-color: rgb(197, 197, 197);
 }
+
+#apps-page {
+    height: 400vh;
+}
+#apps-page > div:first-child {
+    height: 20vh;
+}
+#apps-page > div:first-child h2 {
+    background: linear-gradient(to right, black, rgb(174, 88, 253));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.app-section {
+    height: 40vh;
+}
+#apps-page h3 {
+    font-weight: bold;
+}
+#apps-page p {
+    background: linear-gradient(to right, rgb(44, 44, 44), rgb(112, 112, 112));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.apps-blue-btn {
+    background-color: rgb(41, 56, 255);
+}
