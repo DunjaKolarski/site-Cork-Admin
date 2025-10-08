@@ -175,3 +175,24 @@ body {
     background: linear-gradient(to right, rgb(246, 130, 250), rgb(221, 43, 197));
     padding: 0.5rem 1.5rem;
 }
+
+#footer {
+    height: 10vh;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    font-size: 0.8rem;
+}
+#footer div {
+    margin: 0;
+}
+#footer div button {
+    font-size: 0.8rem;
+    padding: 0;
+}
+#footer p {
+    margin: 0;
+    margin-left: 15rem;
+}
+#footer p span {
+    color: rgb(188, 220, 224);
+}
