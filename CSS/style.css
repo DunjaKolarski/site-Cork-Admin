@@ -196,3 +196,16 @@ body {
 #footer p span {
     color: rgb(188, 220, 224);
 }
+
+.star-section div:nth-of-type(1) {
+    background: linear-gradient(to right, rgb(22, 22, 22), rgb(153, 83, 100));
+}
+.star-section div:nth-of-type(2) {
+    background: linear-gradient(to right, rgb(153, 83, 100), rgb(255, 11, 72));
+}
+.star {
+    color: rgb(255, 34, 101);
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
