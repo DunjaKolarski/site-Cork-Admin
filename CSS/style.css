@@ -128,7 +128,7 @@ body {
 }
 
 #apps-page {
-    height: 400vh;
+    height: 460vh;
 }
 #apps-page > div:first-child {
     height: 20vh;
@@ -139,7 +139,7 @@ body {
     -webkit-text-fill-color: transparent;
 }
 .app-section {
-    height: 40vh;
+    height: 50vh;
 }
 #apps-page h3 {
     font-weight: bold;
