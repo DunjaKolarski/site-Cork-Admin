@@ -20,6 +20,7 @@ body {
 }
 #envato-logo p {
     margin: 0;
+    font-size: 1rem;
 }
 #envato-logo p span {
     font-weight: bold;
@@ -113,6 +114,7 @@ body {
     background: linear-gradient(to right, black, rgb(174, 88, 253));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 2rem;
 }
 #demos-page h5 {
     font-size: 1.2rem;
@@ -137,17 +139,20 @@ body {
     background: linear-gradient(to right, black, rgb(174, 88, 253));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 2rem;
 }
 .app-section {
     height: 50vh;
 }
 #apps-page h3 {
     font-weight: bold;
+    font-size: 1.5rem;
 }
 #apps-page p {
     background: linear-gradient(to right, rgb(44, 44, 44), rgb(112, 112, 112));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 1rem;
 }
 .apps-blue-btn {
     background-color: rgb(41, 56, 255);
@@ -158,6 +163,9 @@ body {
     height: 30vh;
     background-color: rgb(63, 63, 63);
     color: white;
+}
+#down-page h2 {
+    font-size: 2rem;
 }
 #red-button {
     position: absolute;
@@ -182,11 +190,14 @@ body {
     color: white;
     font-size: 0.8rem;
 }
+#footer p {
+    font-size: 1rem;
+}
 #footer div {
     margin: 0;
 }
 #footer div button {
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding: 0;
 }
 #footer p {
@@ -208,4 +219,145 @@ body {
     font-size: 1.5rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    html {
+        font-size: 8px;
+    }
+    
+    #main-page {
+        height: 50vh;
+    }
+
+    #demos-page {
+        height: 60vh;
+    }
+    #demos-page > div:first-child {
+        height: 10vh;
+    }
+
+    #apps-page {
+        height: 190vh;
+    }
+    #apps-page > div:first-child {
+        height: 10vh;
+    }
+    .app-section {
+        height: 20vh;
+    }
+
+    #down-page {
+        height: 15vh;
+    }
+
+    #footer {
+        height: 5vh;
+    }
+}
+
+@media only screen and (max-width: 767px) { 
+    html {
+        font-size: 5px;
+    }
+
+    #main-page {
+        height: 50vh;
+    }
+
+    #demos-page {
+        height: 60vh;
+    }
+    #demos-page > div:first-child {
+        height: 10vh;
+    }
+
+    #apps-page {
+        height: 190vh;
+    }
+    #apps-page > div:first-child {
+        height: 10vh;
+    }
+    .app-section {
+        height: 20vh;
+    }
+
+    #down-page {
+        height: 15vh;
+    }
+
+    #footer {
+        height: 5vh;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    #envato-market {
+        height: 7vh;
+    }
+
+    #main-page {
+        height: 93vh;
+    }
+
+    #demos-page {
+        height: 200vh;
+    }
+    #demos-page > div:first-child {
+        height: 20vh;
+    }
+
+    #apps-page {
+        height: 460vh;
+    }
+    #apps-page > div:first-child {
+        height: 20vh;
+    }
+    .app-section {
+        height: 50vh;
+    }
+
+    #down-page {
+        height: 40vh;
+    }
+
+    #footer {
+        height: 15vh;
+    }
+}
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+    #envato-market {
+        height: 7vh;
+    }
+
+    #main-page {
+        height: 93vh;
+    }
+
+    #demos-page {
+        height: 150vh;
+    }
+    #demos-page > div:first-child {
+        height: 15vh;
+    }
+
+    #apps-page {
+        height: 380vh;
+    }
+    #apps-page > div:first-child {
+        height: 15vh;
+    }
+    .app-section {
+        height: 40vh;
+    }
+
+    #down-page {
+        height: 30vh;
+    }
+
+    #footer {
+        height: 10vh;
+    }
 }
