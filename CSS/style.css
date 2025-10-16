@@ -47,8 +47,14 @@ body {
 #buy-black-button {
     background-color: black;
 }
+#buy-black-button:hover {
+    color: white;
+}
 #laravel-version-button {
     background: linear-gradient(to right, rgb(255, 5, 47), rgb(255, 156, 164));
+}
+#laravel-version-button:hover {
+    color: white;
 }
 #laravel-version-button i {
     font-size: 1rem;
@@ -140,7 +146,14 @@ body {
 .demos-green-btn {
     background: linear-gradient(to top right, rgb(35, 70, 65), rgb(34, 212, 198));
 }
+.demos-green-btn:hover {
+    color: white;
+}
 .coming-btn {
+    color: black;
+    background-color: rgb(197, 197, 197);
+}
+.coming-btn:hover {
     color: black;
     background-color: rgb(197, 197, 197);
 }
@@ -172,6 +185,10 @@ body {
 }
 .apps-blue-btn {
     background-color: rgb(41, 56, 255);
+}
+.apps-blue-btn:hover {
+    background-color: rgb(41, 56, 255);
+    color: white;
 }
 
 #down-page {
