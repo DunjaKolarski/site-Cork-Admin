@@ -73,9 +73,7 @@ body {
     width: 100%;
     font-size: 1.1rem;
 }
-#main-text-buttons {
-    
-}
+
 #main-text-buttons button:nth-of-type(1) {
     background-color: rgb(91, 179, 91);
 }
