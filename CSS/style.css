@@ -103,7 +103,7 @@ body {
 }
 
 #demos-page {
-    height: 180vh;
+    height: 200vh;
 }
 #demos-page > div:first-child {
     height: 20vh;
@@ -230,7 +230,7 @@ body {
     }
 
     #demos-page {
-        height: 60vh;
+        height: 100vh;
     }
     #demos-page > div:first-child {
         height: 10vh;
@@ -265,7 +265,7 @@ body {
     }
 
     #demos-page {
-        height: 60vh;
+        height: 80vh;
     }
     #demos-page > div:first-child {
         height: 10vh;
@@ -300,7 +300,7 @@ body {
     }
 
     #demos-page {
-        height: 200vh;
+        height: 250vh;
     }
     #demos-page > div:first-child {
         height: 20vh;
@@ -335,7 +335,7 @@ body {
     }
 
     #demos-page {
-        height: 150vh;
+        height: 200vh;
     }
     #demos-page > div:first-child {
         height: 15vh;
