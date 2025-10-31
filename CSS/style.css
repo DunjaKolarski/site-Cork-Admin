@@ -22,6 +22,22 @@ html {
 #envato-market {
     height: 5vh;
     background-color: rgb(37, 37, 37);
+    color: white;
+}
+#envato-market > div {
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+#envato-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    margin-left: 2vw;
+}
+#envato-logo img {
+    height: 75%;
 }
 #envato-logo p {
     margin: 0;
@@ -29,6 +45,11 @@ html {
 }
 #envato-logo p span {
     font-weight: bold;
+}
+#envato-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2vw;
 }
 #envato-market div button {
     background-color: rgb(125, 184, 71);
