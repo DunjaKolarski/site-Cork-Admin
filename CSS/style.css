@@ -96,39 +96,54 @@ header {
     font-size: 1rem;
 }
 
-#main-page {
+main {
     height: 95vh;
+    width: 100vw;
     background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(224, 235, 255));
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 #main-section {
     height: 60vh;
     width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-#main-text-section {
+#main-section section {
+    height: 100%;
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
 }
-#main-text-section h1 {
+#main-section section h1 {
     font-size: 3rem;
     font-weight: bold;
     color: rgb(19, 19, 19);
     width: 80%;
 }
-#main-text-section h1 span {
+#main-section section h1 span {
     color: rgb(185, 110, 255);
 }
-#main-text-section > p {
+#main-section section > p {
     width: 100%;
     font-size: 1.1rem;
 }
-
-#main-text-buttons button:nth-of-type(1) {
+#main-text-buttons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+#main-text-buttons a {
     background-color: rgb(91, 179, 91);
 }
-#main-text-buttons button:nth-of-type(2) {
+#main-text-buttons button {
     background-color: rgb(153, 47, 252);
 }
-#main-text-buttons button {
+#main-text-buttons button, #main-text-buttons a{
     color: white;
     padding: 0.6rem 1.2rem;
     font-size: 1.2rem;
@@ -136,8 +151,10 @@ header {
     border-radius: 0.7rem;
 }
 #main-attributes {
+    display: flex;
     font-size: 0.8rem;
     font-weight: bold;
+    gap: 1rem;
 }
 #main-attributes i {
     font-size: 1rem;
@@ -149,7 +166,6 @@ header {
 #main-image-section img {
     width: 100%;
 }
-
 .main-wave {
     width: 100%;             
     height: 30vh;             
@@ -161,7 +177,6 @@ header {
     margin: 0;
     padding: 0;
 }
-
 .main-wave svg {
     display: block;
     width: 100%;
